@@ -16,7 +16,7 @@ shortname your_file_or_directory
 
 ### ファイルの場合
 次の要素を区切り文字なしで連結し、UTF-8でエンコードしたものとする。
-1. 短縮名(shortname)
+1. 短縮名(shortstem)
 2. チェックサム(checksum)
 3. ドット/ピリオド
 4. オリジナルの末尾の拡張子(extension)
@@ -28,7 +28,7 @@ shortname your_file_or_directory
 
 ### ディレクトリの場合
 次の要素を区切り文字なしで連結し、UTF-8でエンコードしたものとする。
-1. 短縮名(shortname)
+1. 短縮名(shortstem)
 2. チェックサム(checksum)
 
 これらの要素は255バイトの領域に**後ろ**から、つまり2番目のチェックサムから詰めていく。
